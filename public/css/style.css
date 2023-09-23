@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* HEADER */
+.header-container{
+    background-color: rgb(153, 199, 240);
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+.header-sentences{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+}
+.header2-container{
+    background-color: rgb(243, 214, 83);
+    height: 40px;
+}
+.header2-sentences{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 7px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.category-list>img{
+    width: 14px;
+    margin-left: 2px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(243, 214, 83);
+    min-width: 140px;
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown-content>a{
+    display: flex;
+    padding-top: 3px;
+    font-size: 17px;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+/* BODY */
+.body-container{
+    padding: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.banner-image{
+    background-color: rgb(192, 192, 192);
+    height: 140px;
+}
+.banner-image>p{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+}
+.all-items{
+    background-color: rgb(241, 159, 64);
+    height: 60px;
+    width: 40%;
+    margin-top: 18px;
+}
+.all-items>p{
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.text-brand{
+    color: rgb(202, 161, 83);
+}
+
+/* footer */
+.footer-container{
+    background-color: rgb(153, 199, 240) ;
+    height: 60px;
+}
+.footer-container>p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Detail Page */
+.detail-container{
+    display: flex;
+    justify-content: space-around;
+}
+.text-detail{
+    margin-top: 70px;
+    width: 480px;
+}
+.text-detail>p{
+    text-align: justify;
+}
+
+/* Top 5 Brand Page */
+.top-body-container>h2{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.card-top{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card-top>h4{
+    padding-bottom: 8px;
+}
+.card>img{
+    padding: 30px;
+}
+.top-body{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 150px;
+}
+
+/* brand detail page */
+.body-detail{
+    padding: 40px;
+}
+.brand-detail{
+    display: flex;
+    justify-content: space-around;
+}
+.brand-detail>img{
+    width: 400px;
+    height: 200px;
+}
+.text-detailbrand>p{
+    margin-right: 150px;
+}
+.text-detailbrand{
+    margin-top: 5px;
+    width: 800px;
+}
+.body-detailbrand{
+    padding: 30px;
+}
+
+/* About Us Page */
+.body-aboutUs{
+    padding: 60px;
+    width: 530px;
+}
+.body-aboutUs>p{
+    margin-bottom: 1px;
+}
+.text-bold{
+    padding-bottom: 9px;
+}
